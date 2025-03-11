@@ -14,18 +14,18 @@ export const EXPERIENCES = [
     technologies: ["Linux", "Databases", "Python", "Ansible", "Docker", "OpenShift", "Grafana"],
   },
   {
-    year: "2020 - 2020",
-    role: "Intern Odoo Developer",
-    company: "Cendana Teknika Utama",
-    description: `Designed and developed applications using Odoo. We create restaurant management system which include POS, Menu Management, and Order Management, which stremline the order system between the waiter and the kitchen.`,
-    technologies: ["Odoo", "Javascript"],
-  },
-  {
     year: "2019 - 2021",
     role: "Lab Computer Assistant",
     company: "Sebelas Maret University",
     description: `Maintained and managed the computer lab, including troubleshooting hardware and software issues, installing updates, and providing technical support to students and faculty.`,
     technologies: ["Hardware", "Software", "Networking"],
+  },
+  {
+    year: "2020 - 2020",
+    role: "Intern Odoo Developer",
+    company: "Cendana Teknika Utama",
+    description: `Designed and developed applications using Odoo. We create restaurant management system which include POS, Menu Management, and Order Management, which stremline the order system between the waiter and the kitchen.`,
+    technologies: ["Odoo", "Javascript"],
   },
 ];
 
