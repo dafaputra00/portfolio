@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {FaLinkedin, FaGithub, FaInstagram} from 'react-icons/fa'
+import {FaLinkedin, FaGithub, FaEnvelope} from 'react-icons/fa'
 
 export const Navbar = () => {
   const [language, setLanguage] = useState('EN')
@@ -16,10 +16,13 @@ export const Navbar = () => {
             <a href='https://www.github.com/dafaputra00' target='_blank' rel='noreferrer' className='text-white mr-4'>
                 <FaGithub />
             </a>
+            <a href='mailto:azizdafaputra@gmail.com' target='_blank' rel='noreferrer' className='text-white mr-4 block sm:hidden'>
+            <FaEnvelope />
+            </a>    
         </div>
         <div className='m-8 flex items-center justify-center gap-4 text-xl'>
-            <a href='mailto:azizdafaputra@gmail.com' target='_blank' rel='noreferrer' className='text-white mr-4'>
-                azizdafaputra@gmail.com
+            <a href='mailto:azizdafaputra@gmail.com' target='_blank' rel='noreferrer' className='text-white mr-4 hidden sm:block'>
+            azizdafaputra@gmail.com
             </a>
         </div>
     </nav>

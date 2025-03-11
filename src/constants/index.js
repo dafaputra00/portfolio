@@ -1,9 +1,10 @@
 import smartIncubator from "../assets/projects/smart-incubator.jpg";
 import webKKN from "../assets/projects/web-kkn.png";
 import kado from "../assets/projects/kado.png";
+import portalBTO from "../assets/projects/portal-bto.jpg";
 
 export const HERO_CONTENT = `I am an IT-Operations who loves to automate things and make life easier for everyone, wether it's a simple bash script or a complex CI/CD pipeline, I am always looking for ways to improve and optimize the way we work.`;
-export const ABOUT_TEXT = `I am a passionate IT-Operations Engineer with experience in monitoring, troubleshooting, and maintaining applications. I have a strong background in Linux, Databases, Python, Ansible, Docker, and Grafana. I also love IoT, as my final college project is a smart egg incubator using nodeMCU. I love learning new things and would really appreciate if opportunities are given to me . Because I believe everything can be learned when given time and effort.`;
+export const ABOUT_TEXT = `I am a passionate IT-Operations Engineer with experience in monitoring, troubleshooting, and maintaining applications server. I have a strong background in Linux, Databases, Python, Ansible, Grafana, Docker, OCP, and Kubernetes. I also love IoT, as my final college project is a smart egg incubator using nodeMCU. I love learning new things and would really appreciate if opportunities are given to me. Because I believe everything can be learned when given time and effort.`;
 
 export const EXPERIENCES = [
   {
@@ -24,7 +25,7 @@ export const EXPERIENCES = [
     year: "2020 - 2020",
     role: "Intern Odoo Developer",
     company: "Cendana Teknika Utama",
-    description: `Designed and developed applications using Odoo. We create restaurant management system which include POS, Menu Management, and Order Management, which stremline the order system between the waiter and the kitchen.`,
+    description: `Designed and developed applications using Odoo. We create restaurant management system which include POS, Menu Management, and Order Management, which streamline the order system between the waiter and the kitchen.`,
     technologies: ["Odoo", "Javascript"],
   },
 ];
@@ -32,9 +33,9 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Portal BTO",
-    image: smartIncubator,
+    image: portalBTO,
     description:
-      "Dashboard for BTO team to  make life easier. We use it for presence, handover, and store a lot of ip server and the credential, patching, and many more. We use React, flask, mysql, and redis for this project. The project is deployed using docker and OKD.",
+      "Dashboard for BTO team to  make life easier. We use it for presence, handover, patching database, store a lot of ip server and the credential, and many more. We use React, flask, mysql, and redis for this project. The project is deployed using docker and OKD.",
     technologies: ["React", "Flask", "MySQL", "Redis", "Docker", "OKD"],
   },
   {

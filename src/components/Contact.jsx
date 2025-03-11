@@ -18,7 +18,7 @@ export const Contact = () => {
         transition={{ duration: 2 }}
         className='text-center tracking-tighter'>
             <p className='my-4'>{CONTACT.phoneNo}</p>
-            <a href="#" className='border-b'>{CONTACT.email}</a>
+            <a href="mailto:azizdafaputra@gmail.com" className='border-b'>{CONTACT.email}</a>
         </motion.div>
     </div>
   )
